@@ -21,7 +21,7 @@ export class LoginPageComponent implements OnInit {
     if(this.username == 'admin' && this.password == 'admin'){
       this.router.navigate(["Admin"]);
      }
-     if(this.username == 'user' && this.password == 'user'){
+     else if(this.username == 'user' && this.password == 'user'){
       this.router.navigate(["User"]);
      }
      else {
