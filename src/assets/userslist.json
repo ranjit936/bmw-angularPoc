@@ -25,103 +25,24 @@
       "team": "BMW-Fundus",
       "location": "Pune"
     },
-    {
-      "userId": 4,
-      "userName": "SMITA MUDE",
-      "projectCode": "TBX-0022",
-      "releaseDate": "May 15, 2019",
-      "designation": "TECHNICAL LEAD",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 5,
-      "userName": "Pradeep K J",
-      "projectCode": "GDN-0023",
-      "releaseDate": "March 18, 2019",
-      "designation": "Senior Technical Lead",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
+    
     {
       "userId": 6,
       "userName": "Suyed Dalvi",
       "projectCode": "TBX-0022",
       "releaseDate": "May 15, 2019",
-      "designation": "SOFTWARE ENGINEER (L1)",
+      "designation": "SOFTWARE ENGINEER ",
       "team": "BMW-Fundus",
       "location": "Pune"
     },
   
-    {
-      "userId": 7,
-      "userName": "Sanjivani Mahesh Lokhande",
-      "projectCode": "TBX-0022",
-      "releaseDate": "May 15, 2019",
-      "designation": "Technical Architect",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 8,
-      "userName": "Rahul Rajaram Prabhune",
-      "projectCode": "GMG-0042",
-      "releaseDate": "October 15, 2018",
-      "designation": "SENIOR SUPPORT ENGINEER",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 9,
-      "userName": "Gangadhar Reddy Patel",
-      "projectCode": "TBX-0022",
-      "releaseDate": "May 15, 2019",
-      "designation": "Associate",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
+    
     {
       "userId": 10,
       "userName": "Pankaj Gorte",
       "projectCode": "GMG-0042",
       "releaseDate": "October 15, 2018",
       "designation": "SENIOR SOFTWARE ENGINEER",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 11,
-      "userName": "Akshara Borse ",
-      "projectCode": "GDN-0011",
-      "releaseDate": "March 19, 2019",
-      "designation": "SENIOR TEST ENGINEER",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 12,
-      "userName": "Pranoti Aniket Chinchkar",
-      "projectCode": "GDN-0023",
-      "releaseDate": "March 18, 2019",
-      "designation": "SOFTWARE ENGINEER (L2)",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 13,
-      "userName": "Eshwar Biradar",
-      "projectCode": "TBX-0048",
-      "releaseDate": "May 21, 2019",
-      "designation": "SENIOR SOFTWARE ENGINEER",
-      "team": "BMW-Fundus",
-      "location": "Pune"
-    },
-    {
-      "userId": 14,
-      "userName": "Sachin Kamble",
-      "projectCode": "TBX-0048",
-      "releaseDate": "May 21, 2019",
-      "designation": "Senior Software Engineer",
       "team": "BMW-Fundus",
       "location": "Pune"
     },
