@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 import { UserPageComponent } from './user-page/user-page.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 
 @NgModule({
-  declarations: [UserPageComponent],
+  declarations: [UserPageComponent, UserDetailsComponent],
   imports: [
     CommonModule,
    FormsModule ,

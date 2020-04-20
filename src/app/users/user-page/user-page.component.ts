@@ -46,7 +46,6 @@ export class UserPageComponent implements OnInit {
 
   toggleImage(){}
   
-  onRatingClicked(value:any) {}
   }
 
 
