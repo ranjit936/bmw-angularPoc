@@ -2,10 +2,8 @@ export interface IUserModel {
     userId: number;
     userName: string;
     projectCode: string;
-    releaseDate: string;
-    price: number;
+    team: string;
     designation: string;
-    starRating: number;
-    imageUrl: string;
+    location: string;
   }
   
