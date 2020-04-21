@@ -13,8 +13,8 @@ const appRoutes: Routes = [
   { path: 'Admin', component: AdminPageComponent },
   { path: 'Welcome', component: WelcomePageComponent },
   { path: 'UserDetails', component: UserDetailsComponent },
-  { path: '', redirectTo: 'Home', pathMatch: 'full' },
-  { path: '**', redirectTo: 'Home', pathMatch: 'full' }
+  { path: '', redirectTo: 'Welcome', pathMatch: 'full' },
+  { path: '**', redirectTo: 'Welcome', pathMatch: 'full' }
 ]
 
 @NgModule({

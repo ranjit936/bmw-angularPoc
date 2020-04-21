@@ -18,29 +18,18 @@
       <table class='table'>
         <thead>
           <tr>
-            <th>
-
-              <!-- //pending -->
-              <button class='btn btn-primary' (click)='toggleImage()'>
-                {{showImage ? 'Hide' : 'Show'}} Image
-              </button>
-            </th>
+      
             <th>Member</th>
             <th>ProjectCode</th>
             <th>Designation</th>
             <th>Team</th>
-
             <th>Location</th>
+            <th>Role</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor='let user of filtereduserslist'>
-            <td>
-
-              <!-- pending -->
-              <img *ngIf='showImage' [src]='user.imageUrl' [title]='user.userName' [style.width.px]='imageWidth'
-                [style.margin.px]='imageMargin'>
-            </td>
+           
             <td>
               <a [routerLink]="['/UserDetails']">
                 <!-- <a [routerLink]="['/UserDetails', user.userId]"> -->
@@ -52,8 +41,7 @@
             <td>{{ user.designation }}</td>
             <td>{{ user.team }}</td>
             <td>{{ user.location }}</td>
-
-
+            <td>{{user.role}}</td>
           </tr>
         </tbody>
       </table>

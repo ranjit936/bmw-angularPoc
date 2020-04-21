@@ -5,4 +5,5 @@ export interface IUserModel {
   team: string;
   designation: string;
   location: string;
+  role:string;
 }

@@ -3,6 +3,7 @@
       "userId": 1,
       "userName": "Sailish Sakhare",
       "projectCode": "GDN-0011",
+      "role": "Admin",
       "designation": "Project Manager",
       "team": "BMW-Fundus",
       "location": "Pune"
@@ -11,7 +12,7 @@
       "userId": 2,
       "userName": "Yogesh Upadhyay",
       "projectCode": "GDN-0023",
-      "releaseDate": "March 18, 2019",
+      "role": "Admin",
       "designation": "SOFTWARE ENGINEER",
       "team": "BMW-Fundus",
       "location": "Pune"
@@ -20,7 +21,7 @@
       "userId": 3,
       "userName": "Ranjit Kumar",
       "projectCode": "TBX-0048",
-      "releaseDate": "May 21, 2019",
+      "role": "User",
       "designation": "Senior Software Engineer",
       "team": "BMW-Fundus",
       "location": "Pune"
@@ -30,7 +31,7 @@
       "userId": 6,
       "userName": "Suyed Dalvi",
       "projectCode": "TBX-0022",
-      "releaseDate": "May 15, 2019",
+      "role": "Admin",
       "designation": "SOFTWARE ENGINEER ",
       "team": "BMW-Fundus",
       "location": "Pune"
@@ -41,7 +42,7 @@
       "userId": 10,
       "userName": "Pankaj Gorte",
       "projectCode": "GMG-0042",
-      "releaseDate": "October 15, 2018",
+      "role": "Admin",
       "designation": "SENIOR SOFTWARE ENGINEER",
       "team": "BMW-Fundus",
       "location": "Pune"
@@ -51,7 +52,17 @@
       "userId": 15,
       "userName": "Digvijay Gavas",
       "projectCode": "GMG-0042",
-      "releaseDate": "October 15, 2018",
+      "role": "User",
+      "designation": "SENIOR SOFTWARE ENGINEER",
+      "team": "BMW-Fundus",
+      "location": "Pune"
+    },
+   
+    {
+      "userId": 15,
+      "userName": "Khushboo Jain",
+      "projectCode": "GMG-0042",
+      "role": "User",
       "designation": "SENIOR SOFTWARE ENGINEER",
       "team": "BMW-Fundus",
       "location": "Pune"
