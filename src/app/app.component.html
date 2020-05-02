@@ -1,11 +1,24 @@
-<nav class='navbar navbar-expand navbar-light bg-light'>
+<!-- <nav class='navbar navbar-expand navbar-light bg-light'>
   <a class='navbar-brand'>{{pageTitle}}</a>
   <ul class='nav nav-pills'>
     <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/Welcome']">Home</a></li>
     <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/login']">Admin</a></li>
     <li> <a class='nav-link' routerLinkActve='active' [routerLink]="['/User']">Users</a></li>
   </ul>
+</nav> -->
+
+
+<nav class='navbar navbar-expand navbar-light bg-light'>
+  <a class='navbar-brand'>{{pageTitle}}</a>
+  <ul class='nav nav-pills'>
+    <li><a  class='nav-link' [routerLink]="['/Welcome']">Home</a></li>
+    <li><a class='nav-link' [routerLink]="['/login']">Admin</a></li>
+    <li> <a class='nav-link'  [routerLink]="['/login']">Users</a></li>
+    <li> <a class='nav-link'  [routerLink]="['/help']">Help</a></li>
+
+  </ul>
 </nav>
+
 
 <div class='container home-bg'>
   <router-outlet></router-outlet>

@@ -9,13 +9,15 @@ import { Router } from '@angular/router';
 export class WelcomePageComponent implements OnInit {
   title = 'bmw-angularPoc';
   pageTitle: string = 'BMW-FUNDUS';
+  message: string = '#StayHome. StaySafe..'
+ 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  login() {
-    this.router.navigate(["login"]);
+  intro() {
+    this.router.navigate(["intro"]);
 
   }
 }

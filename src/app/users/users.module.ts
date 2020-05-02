@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { UserPageComponent } from './user-page/user-page.component';
+import { UsersListComponent } from './users-list/users-list.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { UserDetailsComponent } from './user-details/user-details.component';
-
+import { UsersRoutingModule } from './users-routing.module';
 
 @NgModule({
-  declarations: [UserPageComponent, UserDetailsComponent],
+  declarations: [UsersListComponent, UserDetailsComponent],
   imports: [
     CommonModule,
-   FormsModule ,
-   RouterModule
+    FormsModule,
+    UsersRoutingModule,
+    RouterModule
   ]
 })
 export class UsersModule { }

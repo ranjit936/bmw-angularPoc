@@ -3,11 +3,11 @@ import { UsersListService } from '../userslist.service';
 import { IUserModel } from '../userModel';
 
 @Component({
-  selector: 'app-user-page',
-  templateUrl: './user-page.component.html',
-  styleUrls: ['./user-page.component.less']
+  selector: 'app-users-list',
+  templateUrl: './users-list.component.html',
+  styleUrls: ['./users-list.component.less']
 })
-export class UserPageComponent implements OnInit {
+export class UsersListComponent implements OnInit {
   filtereduserslist: IUserModel[] = [];
   Userslist: IUserModel[] = [];
   pageTitle:any = 'Welcome To BMW-Fundus Team'

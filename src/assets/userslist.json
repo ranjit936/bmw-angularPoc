@@ -1,28 +1,40 @@
 [
     {
       "userId": 1,
-      "userName": "Sailish Sakhare",
+      "userName": "Ranjit Kumar",
       "projectCode": "GDN-0011",
+      "role": "Admin",
       "designation": "Project Manager",
-      "team": "BMW-Fundus",
+      "team": "Dev Team",
       "location": "Pune"
     },
+    
+    {
+      "userId": 10,
+      "userName": "Pankaj Gorte",
+      "projectCode": "GMG-0042",
+      "role": "Admin",
+      "designation": "SENIOR SOFTWARE ENGINEER",
+      "team": "Dev Team",
+      "location": "Pune"
+    },
+   
     {
       "userId": 2,
-      "userName": "Yogesh Upadhyay",
+      "userName": "Prachi Kumari",
       "projectCode": "GDN-0023",
-      "releaseDate": "March 18, 2019",
+      "role": "Admin",
       "designation": "SOFTWARE ENGINEER",
-      "team": "BMW-Fundus",
+      "team": "Dev Team",
       "location": "Pune"
     },
     {
       "userId": 3,
-      "userName": "Ranjit Kumar",
+      "userName": "Saourav Kumar",
       "projectCode": "TBX-0048",
-      "releaseDate": "May 21, 2019",
+      "role": "User",
       "designation": "Senior Software Engineer",
-      "team": "BMW-Fundus",
+      "team": "Dev Team",
       "location": "Pune"
     },
     
@@ -30,30 +42,28 @@
       "userId": 6,
       "userName": "Suyed Dalvi",
       "projectCode": "TBX-0022",
-      "releaseDate": "May 15, 2019",
+      "role": "Admin",
       "designation": "SOFTWARE ENGINEER ",
-      "team": "BMW-Fundus",
+      "team": "Dev Team",
       "location": "Pune"
     },
-  
-    
     {
-      "userId": 10,
-      "userName": "Pankaj Gorte",
+      "userId": 15,
+      "userName": "Kundan Kumar",
       "projectCode": "GMG-0042",
-      "releaseDate": "October 15, 2018",
+      "role": "User",
       "designation": "SENIOR SOFTWARE ENGINEER",
-      "team": "BMW-Fundus",
+      "team": "Dev Team",
       "location": "Pune"
     },
    
     {
       "userId": 15,
-      "userName": "Digvijay Gavas",
+      "userName": "Khushboo Jain",
       "projectCode": "GMG-0042",
-      "releaseDate": "October 15, 2018",
+      "role": "User",
       "designation": "SENIOR SOFTWARE ENGINEER",
-      "team": "BMW-Fundus",
+      "team": "Dev Team",
       "location": "Pune"
     }
     

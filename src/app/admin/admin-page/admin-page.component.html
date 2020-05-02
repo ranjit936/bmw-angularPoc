@@ -1,4 +1,34 @@
-<div class='container home-bg'>
-    <h4>Coming Soon...</h4>
-    <img class='home-bg' src="assets\images\BMW_Road.jpg" />
+<div class="container-fluid">
+    <div class="container col-md-12 ">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-2 sideHeader">
+                <div class="row button-height">
+                    <button class="btn" (click)='onClickAdminHome()'>Admin Home</button>
+                </div>
+             
+                <div class="row button-height">
+                    <button class="btn" (click)='addUser()'>Add User</button>
+                </div>
+                <div class="row button-height">
+                    <button class="btn" (click)='getUserDetails()'>User Details</button>
+                </div>
+                <div class="row button-height">
+                    <button class="btn" (click)='deleteUser()'>Delete User</button>
+                </div>
+                <div class="row button-height">
+                    <button class="btn" (click)='changeUserRole()'>Change Role</button>
+                </div>
+
+            </div>
+            <div class="col-md-10 header">
+                <h3>Welcome to Admin Home Page</h3>
+                <div *ngIf="isAdminHome">
+                    <img class='home-bg' src="assets\images\BMW_Road.jpg" />
+                </div>
+                <div *ngIf="isAddUser">
+                    <app-add-user-page></app-add-user-page>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
