@@ -31,8 +31,8 @@
           <tr *ngFor='let user of filtereduserslist'>
            
             <td>
-              <a [routerLink]="['/UserDetails']">
-                <!-- <a [routerLink]="['/UserDetails', user.userId]"> -->
+              <!-- <a [routerLink]="['/userDetails']"> -->
+                <a [routerLink]="['/userDetails', user.userId]">
 
                 {{ user.userName }}
               </a>
