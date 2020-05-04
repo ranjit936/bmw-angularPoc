@@ -26,6 +26,16 @@ export class UsersListComponent implements OnInit {
     this.filtereduserslist = this.listFilter ? this.performFilter(this.listFilter) : this.Userslist;
   }
 
+userDataParent ={
+  "userId": 1,
+  "userName": "Test Kumar",
+  "projectCode": "GDN-0011",
+  "role": "Admin",
+  "designation": "Project Manager",
+  "team": "Dev Team",
+  "location": "Pune"
+}
+  
   constructor(private userlistService:UsersListService) { }
 
   ngOnInit(): void {

@@ -31,11 +31,17 @@
           <tr *ngFor='let user of filtereduserslist'>
            
             <td>
-              <!-- <a [routerLink]="['/userDetails']"> -->
-                <a [routerLink]="['/userDetails', user.userId]">
 
-                {{ user.userName }}
-              </a>
+              <!-- <nav>
+                <ul>
+                  <li><a routerLink="/userDetails" routerLinkActive="active">{{ user.userName }}</a></li>
+                </ul>
+              </nav> -->
+ <!-- <a [routerLink]="['/userDetails']"> -->
+  <a [routerLink]="['/userDetails', user.userId]">
+
+    {{ user.userName }}
+  </a>
             </td>
             <td>{{ user.projectCode | lowercase  }}</td>
             <td>{{ user.designation }}</td>
@@ -50,4 +56,7 @@
 </div>
 <div *ngIf='errorMessage' class='alert alert-danger'>
   Error: {{ errorMessage }}
+</div>
+<div>
+  <app-user-details [userdataChild]="userDataParent"></app-user-details>
 </div>
